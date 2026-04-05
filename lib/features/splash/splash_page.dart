@@ -1,3 +1,5 @@
+import 'package:ctrlfinance_app/common/constants/app_colors.dart';
+import 'package:ctrlfinance_app/common/constants/app_text_style.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatelessWidget {
@@ -12,16 +14,12 @@ class SplashPage extends StatelessWidget {
           gradient: LinearGradient(
             begin: AlignmentGeometry.topCenter,
             end: AlignmentGeometry.bottomCenter,
-            colors: [Color(0xFF63B5AF), Color(0xFF438883)],
+            colors: [AppColors.greenlightOne, AppColors.greenlightTwo],
           ),
         ),
-        child: const Text(
+        child: Text(
           'CtrlFinance',
-          style: TextStyle(
-            fontSize: 50,
-            fontWeight: FontWeight.w700,
-            color: Color(0xFFFFFFFF),
-          ),
+          style: AppTextStyles.bigText.copyWith(color: AppColors.white),
         ),
       ),
     );
