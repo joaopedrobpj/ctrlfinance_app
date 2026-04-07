@@ -7,4 +7,5 @@ class AppColors {
   static const Color greenlightTwo = Color(0xFF438883);
   static const Color white = Color(0xFFFFFFFF);
   static const Color iceWhite = Color(0xFFEEF8F7);
+  static const Color gray = Color(0xFF444444);
 }
