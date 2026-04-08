@@ -13,6 +13,11 @@ class AppTextStyles {
     fontSize: 36,
     fontWeight: FontWeight.w700,
   );
+  static const TextStyle normalText = TextStyle(
+    fontFamily: 'Inter',
+    fontSize: 20,
+    fontWeight: FontWeight.w600,
+  );
   static const TextStyle smallText = TextStyle(
     fontFamily: 'Inter',
     fontSize: 14,
